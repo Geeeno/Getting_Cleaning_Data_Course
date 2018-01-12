@@ -7,8 +7,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 - activity.description: the description of the activity that subject permorms;
 
 Following variables contain the average value of each variable for each activity and each subject:
-
-- tBodyAcc-mean()-X
+- tBodyAcc-mean()-X: [
 - tBodyAcc-mean()-Y
 - tBodyAcc-mean()-Z
 - tBodyAcc-std()-X
@@ -87,6 +86,9 @@ Following variables contain the average value of each variable for each activity
 - fBodyBodyGyroJerkMag-mean()
 - fBodyBodyGyroJerkMag-std()
 - fBodyBodyGyroJerkMag-meanFreq()     
+
+The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2). 
+The gyroscope units are rad/seg. 
 
 ## Analysis
 - Create the train and test datasets, adding them the subject and the activity.
