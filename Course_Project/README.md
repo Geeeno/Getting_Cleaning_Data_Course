@@ -21,7 +21,7 @@ To run the analysis and to have a tidy data set, follow these steps:
 - Download the file from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 - Extract the downloaded file in your working directory.
 - Copy the following files in your working directory: "cleaning_functions.R", "run_analysis.R".
-- Load the source "run_analysis.R" at your session in R, with 'source("run_analysis.R")'.
+- Load the source "run_analysis.R" at your session in R, with `source("run_analysis.R")`.
 - Execute 'run.analysis()' in R.
 
-'run.analysis()' uses the functions from "analysis_functions.R", and generates a file called "tidy_dataset.txt" in your working directory.
+`run.analysis()` uses the functions from "analysis_functions.R", and generates a file called "tidy_dataset.txt" in your working directory.
