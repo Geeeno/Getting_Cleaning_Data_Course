@@ -5,7 +5,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ## Variables
 - subject.id: the id of subject who performed the activity;
 - activity.description: the description of the activity that subject permorms;
+
 Following variables contain the average value of each variable for each activity and each subject:
+
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y
 - tBodyAcc-mean()-Z
