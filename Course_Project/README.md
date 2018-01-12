@@ -24,4 +24,4 @@ To run the analysis and to have a tidy data set, follow these steps:
 - Load the source "run_analysis.R" at your session in R, with `source("run_analysis.R")`.
 - Execute 'run.analysis()' in R.
 
-`run.analysis()` uses the functions from "analysis_functions.R", and generates a file called "tidy_dataset.txt" in your working directory.
+`analysis.run()` uses the functions from "analysis_functions.R", and generates a file called "tidy_dataset.txt" in your working directory.
